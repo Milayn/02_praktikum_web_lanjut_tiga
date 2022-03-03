@@ -30,9 +30,6 @@ Route::get('/about-us', [AboutUsController::class, 'about']);
 
 Route::resource('/contact-us', ContactUsController::class);
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 // Route::get('news/{slug}', function($slug=''){
 //     return "ini adalah halaman berita $slug";
 // });
